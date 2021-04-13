@@ -1,4 +1,4 @@
-# Spring Boot Project Template
+# Project Template - Spring Boot & Jekyll Integration
 * **Objective** - The purpose of this repository is to create a standard template to clone from when creating new spring boot projects.
 
 ## How to use
