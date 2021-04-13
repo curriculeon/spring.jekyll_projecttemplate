@@ -2,10 +2,14 @@ package com.github.curriculeon.services;
 
 import com.github.curriculeon.repositories.PersonRepository;
 import com.github.curriculeon.models.Person;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PersonService {
     private PersonRepository repository;
 
+    @Autowired
     public PersonService(PersonRepository repository) {
         this.repository = repository;
     }
